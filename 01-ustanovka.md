@@ -7,3 +7,4 @@
 - | Процессоры | 2 ядра |
 - | Жёсткий диск | 40 GB, `динамически расширяемый`|
 - | Сетевой адаптер | NAT |
+<img width="849" height="810" alt="01-nastroyki-vm" src="https://github.com/user-attachments/assets/78b76d52-fa33-4cf8-b0fd-f70bfa8de0c1" />
