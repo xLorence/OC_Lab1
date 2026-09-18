@@ -9,4 +9,20 @@
 - | Сетевой адаптер | NAT |
 <img width="849" height="810" alt="01-nastroyki-vm" src="https://github.com/user-attachments/assets/78b76d52-fa33-4cf8-b0fd-f70bfa8de0c1" />
 
+А также установил ISO-образ на саму уже виртуальную машину и создал Бекап (Снимок)
+<img width="1370" height="984" alt="изображение" src="https://github.com/user-attachments/assets/0bb5eb03-0b6a-4c20-8b90-10618549a047" />
+
 Вопрос на ответ: `Снимок снимается на этом моменте, если в случае чего мы смогли "откатиться" обратно до состояния чистой. К этому может привести неправильные настройки самой ВМ или уже при установке операционной системы.`
+
+Таблица разделов:
+
+SCSI (0,0,0) (sda) - 42.9 GB VMWare, VMWare Virtual S
+- | > #1 primary 2.0 GB f swap swap |
+- | > #2 primary 40.9 GB f ext4 /   |
+
+Скриншот диска после раздела представлен ниже
+<img width="802" height="604" alt="01-disk_posle" src="https://github.com/user-attachments/assets/dfb61b57-12d5-4117-b35c-b4d7c4218e96" />
+
+Скриншот диска до его раздела представлен ниже
+<img width="807" height="601" alt="Снимок экрана 2026-09-18 223012" src="https://github.com/user-attachments/assets/977072e4-8b21-4a3f-8f08-0dc697b71fc6" />
+
